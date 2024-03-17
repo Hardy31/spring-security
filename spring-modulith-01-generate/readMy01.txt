@@ -1,0 +1,19 @@
+
+https://www.youtube.com/watch?v=5RJa8bfl-lw
+1-10
+
+Подключаем Spring Security
+___________________________
+
+В pom.xml модуля добавлена зависимость:
+    		<dependency>
+    			<groupId>org.springframework.boot</groupId>
+    			<artifactId>spring-boot-starter-security</artifactId>
+    			<version>3.0.0</version>
+    		</dependency>
+
+  Сразу поменялось поведения.
+    Теперь при попытке войти на страницу приветствия  сначало появляется страница для авторизации
+        с стандартным именем  пользователя : user и поролем который генерирует Spring Security  смотри  строку  Using generated security password:
+
+    Только после авторизации мы поподем на стартовую входа /hello.

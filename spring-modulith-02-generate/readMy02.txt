@@ -1,0 +1,13 @@
+
+https://www.youtube.com/watch?v=5RJa8bfl-lw
+5-50
+
+Для добавления возможности создавать своего поьзователя
+
+в файле /home/alex/Документы/SpringSecurity/spring-security/spring-modulith-generate-02/src/main/resources/application.properties
+    добавляем :
+        #для добавления своего пользователя
+        spring.security.user.name=jame
+        spring.security.user.password=123
+
+    После этого Spring уже не будет для нас генерировать пароль для пользователя User  пароль.

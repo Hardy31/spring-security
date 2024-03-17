@@ -1,0 +1,16 @@
+
+https://www.youtube.com/watch?v=X84tVKjrufU
+
+
+Spring Boot приложение с
+    - Maven зависимостью Spring Secirity
+    - IN-MEMORY аутентификацией
+
+
+Api     |    Роли имеющие доступ
+--------|-------------------------------
+/hello  |    Все пользователи
+/user   |    Имеющие роль Admin или User
+/admin  |    Только для Admin
+
+
